@@ -27,7 +27,7 @@ public class ThreadsSyncExample {
 
     }
 
-    public static int getID(){
+    public static synchronized int getID(){
         return counter++;
     }
 }
